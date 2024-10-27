@@ -19,7 +19,8 @@ function App(): React.JSX.Element {
                 </ul>
             </p>
             <p>
-                <img src="computerSetup.jpeg" alt="Pink LED computer setup"
+                <img src="computerSetup.jpeg" alt="Pink LED computer setup"/>
+                <Button onClick={ () => { console.log("Hello World") } }>Log Hello World</Button>
             </p>
         </div>
     );
