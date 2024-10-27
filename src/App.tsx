@@ -9,7 +9,7 @@ function App(): React.JSX.Element {
             </header>
             <p>
                 Grace Donaher
-                <br>Hello WOrld</br>
+                <br>Hello World</br>
             </p>
         </div>
     );
