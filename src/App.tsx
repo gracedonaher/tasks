@@ -10,7 +10,12 @@ function App(): React.JSX.Element {
             <p>
                 Grace Donaher
             </p>
-            <p>Hello World</p>
+            <p>
+                Hello World
+            </p>
+            <p>
+                <img src="computerSetup.jpeg" alt="Pink LED computer setup"
+            </p>
         </div>
     );
 }
