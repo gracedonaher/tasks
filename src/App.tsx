@@ -12,6 +12,11 @@ function App(): React.JSX.Element {
             </p>
             <p>
                 Hello World
+                <ul>
+                    <li>Bonjour</li>
+                    <li>Hola</li>
+                    <li>Ciao</li>
+                </ul>
             </p>
             <p>
                 <img src="computerSetup.jpeg" alt="Pink LED computer setup"
