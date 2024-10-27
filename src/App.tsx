@@ -4,27 +4,29 @@ import "./App.css";
 
 function App(): React.JSX.Element {
     return (
-        <div className="App" style={ {width: 2}>
+        <div className="App">
             <header className="App-header">
                 <h1>UD CISC275 with React Hooks and TypeScript</h1>
             </header>
-            <Col>
-                Grace Donaher
-            <p>
-                Hello World
-                <ul>
-                    <li>Bonjour</li>
-                    <li>Hola</li>
-                    <li>Ciao</li>
-                </ul>
-            </p>
-            </Col>
-            <Col
-            <p>
-                <img src="computerSetup.jpeg" alt="Pink LED computer setup"/>
-                <Button onClick={ () => { console.log("Hello World") } }>Log Hello World</Button>
-            </p>
-            </Col>
+            <Container>
+                <Row>
+                    <Col>
+                        <div style={ {width: '2px', height: '4px' , backgroundColor: 'red'} }>
+                            Hello World
+                            <ul>
+                                <li>Bonjour</li>
+                                <li>Hola</li>
+                                <li>Ciao</li>
+                            </ul>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div style={ {width: '2px', height: '4px' , backgroundColor: 'red'} }>
+                            <img src="computerSetup.jpeg" alt="Pink LED computer setup"/>
+                            <Button onClick={ () => { console.log("Hello World") } }>Log Hello World</Button>
+                        </div>
+                    </Col>
+                </Row>
         </div>
     );
 }
